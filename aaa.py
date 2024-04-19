@@ -1,6 +1,6 @@
 
 print("HI")
 
-def f(a,b):
-    return a+b
-print(3,2)
+def f(*args):
+    return sum(*args)
+print(f)
